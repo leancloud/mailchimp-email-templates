@@ -1,0 +1,196 @@
+<!-- from: The LeanCloud Team -->
+<!-- subject: LeanCloud Blog Newsletter -->
+
+<!doctype html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style type="text/css">
+      body {
+        color: #333;
+        background: #fff;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        word-wrap: break-word;
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.6;
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      ::selection{
+        background: rgba(48, 144, 228, .2);
+      }
+
+      a {
+        color: #0b79e5;
+      }
+        a:focus,
+        a:hover {
+          color: #39f;
+        }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5 {
+        font-weight: 300;
+      }
+
+      h1 {
+        font-size: 1.6em;
+        margin: 0.67em 0;
+      }
+
+      h2 {
+        font-size: 1.4em;
+        margin: 1.8em 0 0;
+        color: #2c97e8;
+      }
+
+      h3 {
+        font-size: 1.1em;
+        font-weight: bold;
+      }
+
+      small {
+        font-size: 80%;
+      }
+
+      .extend {
+        padding: 20px 20px;
+      }
+        .extend-inner {
+          max-width: 600px;
+          margin: 0 auto;
+        }
+
+      .header {
+        background: #333;
+        padding: 60px 20px;
+      }
+        .header a {
+          display: block;
+          text-decoration: none;
+          width: 186px;
+          height: 30px;
+        }
+        .header svg {
+          width: 186px;
+          height: 30px;
+        }
+        .header img {
+          width: 186px;
+          height: 30px;
+          vertical-align: top;
+        }
+        .header span {
+          color: #fff;
+          font-size: 36px;
+          font-weight: 300;
+          line-height: 36px;
+        }
+          .header span var {
+            font-weight: 100;
+            font-style: normal;
+          }
+
+      .title {
+        background: #f9f9f9;
+      }
+        .title h1 {
+          line-height: 1.4;
+        }
+
+      .content {
+      }
+        .content img {
+          max-width: 100%;
+        }
+
+      .footer {
+        background: #eee;
+        color: #666;
+        font-size: 90%;
+      }
+        .footer a {
+          color: #444;
+        }
+          .footer a:focus,
+          .footer a:hover {
+            color: #000;
+          }
+    </style>
+  </head>
+
+  <body>
+    <div class="extend header">
+      <div class="extend-inner header-inner">
+        <a href="http://blog.leancloud.cn/" class="logo">
+          <img src="https://leancloud.cn/images/static/press/Logo%20-%20White.png" alt="LeanCloud">
+        </a>
+      </div>
+    </div>
+    <!-- .header -->
+
+    <div class="extend title">
+      <div class="extend-inner title-inner">
+        <h1>*|RSSFEED:TITLE|* - *|RSSFEED:DATE|* edition:</h1>
+      </div>
+    </div>
+    <!-- .title -->
+
+    <div class="extend content">
+      <div class="extend-inner content-inner">
+        *|MC:TOC|*
+        
+        *|RSSITEMS:|*
+          
+          <h1><a href="*|RSSITEM:URL|*" target="_blank">*|RSSITEM:TITLE|*</a></h1>
+          
+          <p>By *|RSSITEM:AUTHOR|* on *|RSSITEM:DATE|*</p>
+          
+          <br>
+          *|RSSITEM:CONTENT_FULL|*
+          <br>
+          
+          <p><a href="*|RSSITEM:URL|*">Read more &raquo;</a></p>
+          
+          <hr>
+          
+        *|END:RSSITEMS|*
+
+        <!-- <p><img src="http://placehold.it/3500x150" alt="An awesome picture"></p> -->
+
+        <p>Cheers, <br />
+        The LeanCloud Team</p>
+      </div>
+    </div>
+    <!-- .content -->
+
+    <div class="extend footer">
+      <div class="extend-inner footer-inner">
+        <p>
+          Copyright &copy; *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.
+          *|IFNOT:ARCHIVE_PAGE|*
+          *|LIST:DESCRIPTION|*
+        </p>
+        <p>
+          *|HTML:LIST_ADDRESS_HTML|* *|END:IF|*
+        </p>
+        <p>
+          <a href="*|UNSUB|*" class="utilityLink">unsubscribe from this list</a>
+          <a href="*|UPDATE_PROFILE|*" class="utilityLink">update subscription preferences</a>
+        </p>
+        <p>
+          *|IF:REWARDS|* *|HTML:REWARDS|*
+          *|END:IF|*
+        </p>
+      </div>
+    </div>
+    <!-- .footer -->
+
+  </body>
+</html>
